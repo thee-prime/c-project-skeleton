@@ -1,0 +1,10 @@
+# Project Build Metadata
+PROJECT_NAME = Sample Project Name
+PROJECT_BIN  = netmgr
+PROJECT_VER  = 1.0.0
+PROJECT_AUTHOR = Thee Prime
+BUILD_MODE = debug
+
+# --- Compiler Configuration ---
+CC = gcc
+CFLAGS = -Wall -Wextra -g -DDEBUG -Iinclude
